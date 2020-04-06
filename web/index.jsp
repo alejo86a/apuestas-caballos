@@ -8,9 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>racecourse</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
   </head>
   <body>
-  $END$
+  <form action="post">
+  <div class="left-panel">
+    holi
+  </div>
+  <div class="right-panel">
+    mundi
+  </div>
+  </form>
   </body>
 </html>
