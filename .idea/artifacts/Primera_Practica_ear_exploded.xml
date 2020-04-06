@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Primera-Practica:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Primera_Practica_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Primera-Practica/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web.war">
+        <element id="artifact" artifact-name="Primera-Practica:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
