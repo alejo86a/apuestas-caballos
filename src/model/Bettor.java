@@ -39,4 +39,8 @@ public class Bettor {
     public String getStatus() {
         return status;
     }
+
+    public double getAmount() {
+        return amount;
+    }
 }

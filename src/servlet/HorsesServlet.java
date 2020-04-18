@@ -1,7 +1,5 @@
 package servlet;
 
-import model.Bettor;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,11 +8,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "HypodromServlet")
-public class HypodromServlet extends HttpServlet {
-
+@WebServlet(name = "HorsesServlet")
+public class HorsesServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        try (PrintWriter out = response.getWriter()) {
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

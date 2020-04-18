@@ -3,4 +3,28 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>HypodromServlet</servlet-name>
+        <servlet-class>servlet.HypodromServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HypodromServlet</servlet-name>
+        <url-pattern>/HypodromServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>HorsesServlet</servlet-name>
+    <servlet-class>servlet.HorsesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HorsesServlet</servlet-name>
+        <url-pattern>/HorsesServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>BettorServlet</servlet-name>
+    <servlet-class>servlet.BettorServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>BettorServlet</servlet-name>
+        <url-pattern>/BettorServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

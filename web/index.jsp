@@ -10,14 +10,46 @@
   <head>
     <title>racecourse</title>
     <link type="text/css" href="style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
-  <form action="post">
+  <form action="HypodromServlet" method="POST">
   <div class="left-panel">
-    holi
+    <table border="solid">
+      <tr>
+        <th># de caballo</th>
+        <th>Nombre del caballo</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>Tales1</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Tales2</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th>Tales3</th>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th>Tales4</th>
+      </tr>
+      <form action="" method="GET">
+        <p> Jugador 1 <input type="number" name="Apuesta" placeholder="$ Valor de tu apuesta" min="0"></p>
+        <p> Jugador 2 <input type="number" name="Apuesta" placeholder="$ Valor de tu apuesta" min="0"></p>
+        <p> Jugador 3 <input type="number" name="Apuesta" placeholder="$ Valor de tu apuesta" min="0"></p>
+        <p> Jugador 4 <input type="number" name="Apuesta" placeholder="$ Valor de tu apuesta" min="0"></p>
+      </form>
+    </table>
   </div>
   <div class="right-panel">
-    mundi
+    <img src="assets/Hipodromojpg.jpg" height="300" width="500"/>
+
+    <div id="tabla"></div>
+
   </div>
   </form>
   </body>
